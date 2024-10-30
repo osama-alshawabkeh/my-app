@@ -79,4 +79,4 @@ def main(page: Page):
     page.add(buildpage)
     page.update()
 
-app(target=main)
+app(target=main,view=AppView.WEB_BROWSER)
